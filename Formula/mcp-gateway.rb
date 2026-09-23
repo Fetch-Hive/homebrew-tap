@@ -1,25 +1,25 @@
 class McpGateway < Formula
   desc "Open-source MCP Gateway operator CLI."
   homepage "https://github.com/Fetch-Hive/openapi-mcp"
-  version "0.5.0"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.5.0/mcp-gateway-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "f203cef29d21ea24689e2b40fe9ed0f92ec6183aa368e95abec7d43496be391c"
+      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.6.0/mcp-gateway-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "39d767fa4c749afdb826791ecbc670d0e738c406a08a634dea3b24093b2f49f8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.5.0/mcp-gateway-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "08e24ed08b0854ae933d7ea8bf8ee7e66c95c3763bb27081589a01f126549b5c"
+      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.6.0/mcp-gateway-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "6f1138ae05f7e4d41b41ece3cfc3307b8005cef917e834e9908c3306e25568ef"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.5.0/mcp-gateway-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "229efbc6b1aa4509a5012f3835489b5e509d49e3d507eced39b186b4df270eba"
+      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.6.0/mcp-gateway-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "740db9fb9715af3cc2d7b0e7b13d7f0ea1b1ddf9a11e96ed55c23264cbc22596"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.5.0/mcp-gateway-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "21ee21dde5f569017b4674b47102303f59e3f2d15ca135766186f43e9c503917"
+      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.6.0/mcp-gateway-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "5c45db66aab395ae75d197ae1f6f6e2a7f613c1c7705b7aa12c1395cfba0633c"
     end
   end
   license "Apache-2.0"
