@@ -1,25 +1,25 @@
 class McpGateway < Formula
   desc "Open-source MCP Gateway operator CLI."
   homepage "https://github.com/Fetch-Hive/openapi-mcp"
-  version "0.11.0"
+  version "0.11.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.11.0/mcp-gateway-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "f8965388972768ef0b8e80fbde5cd793761066025b2a0d203ca36aecc3c9c3d5"
+      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.11.1/mcp-gateway-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "da4a2a4946fd9b294ba502fbccc6003fdb286ed4edb621b481fca22842180f62"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.11.0/mcp-gateway-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "9dbcff4a0c0c1a3ce7e2a769989965ae5eb920a4bdf93941ed8d00f6f934ee75"
+      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.11.1/mcp-gateway-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "7671a2c86d065c86ae77c72dd2de915b6f1daa7dcede44f3d5160e694b231b4a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.11.0/mcp-gateway-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "84e443c7e040315f62201624459b9b3282e68189bb810a7bf66d301f6bcfb2c4"
+      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.11.1/mcp-gateway-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "8a76f778855f20e938288b977e03d9be4d55f96705eaaf1346df5ee604b52722"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.11.0/mcp-gateway-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "37068f32255ae0da2cb752b3c62781808bda97bf51116964733fac0edc5d607e"
+      url "https://github.com/Fetch-Hive/openapi-mcp/releases/download/v0.11.1/mcp-gateway-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "a58d951a4af753260ad2be23ce164c5bd8ba1dc57720e265ba53fc994883b40b"
     end
   end
   license "Apache-2.0"
